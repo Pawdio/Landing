@@ -1,0 +1,12 @@
+Objective: to create a part of the landing page using the previously learned skills and positioning.
+- To revise +
+- To write the initial basic styles +
+- To create a nav-menu and style it +
+- To create the content part of the header +
+- To set a background to the section +
+- To create an animation for the elements +
+- To create and style the “About Us” section +
+- To create the “What we do” page +
+- To style the “What we do” page +
+- To conclude
+- To give homework.

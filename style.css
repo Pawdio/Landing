@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.menu{
+    background-color:black;
+    padding: 10px 5px 20px 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+    margin: 6px;
+}
+
+.links{
+    float: right;
+}
+
+.header{
+    height: 100vh;
+    background-image: linear-gradient( #df8880, #fdc796);
+    width: 100%;
+    position: relative;
+}
+
+.head-bg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.title{
+    font-size: 100px;
+    width: max-content;
+    color: white;
+    text-shadow: 10px 10px #df6161;
+}
+
+.button{
+    text-decoration: none; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+    box-shadow: 10px 10px #df6161;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.circle1{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    animation: circle1 5s infinite;
+}
+
+.circle2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    animation: circle2 5s infinite;
+}
+
+.circle3{
+    position: absolute;
+    left: -10px;
+    bottom: -10px;
+    animation: circle3 6s infinite;
+}
+
+.circle-dashed-border{
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+    animation: circle-dashed-border 9s infinite linear;
+}
+
+
+.circle-bordered{
+    position: absolute;
+    left: 300px;
+    bottom: -30px;
+    animation: circle-bordered 6s infinite linear;
+}
+
+.octagon{
+    position: absolute;
+    right: 700px;
+    bottom: 60px;
+    animation: octagon 5s infinite linear;
+}
+
+.triangle{
+    position: absolute;
+    left: 770px;
+    top: 250px;
+    animation: triangle 8s infinite linear;
+}
+
+@keyframes circle1{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(100px, 100px) rotate(180deg)
+    }
+    100%{
+        transform: translate(0,0) rotate(360deg)
+    }
+}
+
+@keyframes circle2{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(-100px, 100px) rotate(180deg)
+    }
+    100%{
+        transform: translate(0,0) rotate(360deg)
+    }
+}
+
+@keyframes circle3{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(100px, 100px)
+    }
+    100%{
+        transform: translate(0,0)
+    }
+}
+
+@keyframes triangle{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(200px, 0);
+    }
+    100%{
+        transform: translate(0,0)
+    }
+}
+@keyframes circle-bordered{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(200px, 0);
+    }
+    100%{
+        transform: translate(0,0)
+    }
+}
+
+@keyframes octagon{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(100px, 100px) rotate(180deg);
+    }
+    100%{
+        transform: translate(0,0) rotate(360deg);
+    }
+}
+
+@keyframes circle-dashed-border{
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.about-us{
+    padding: 100px 0;
+}
+
+.what-we-do{
+    /* height: 70vh; */
+    background-image: linear-gradient(7deg,#df8880, #fdc796 70%, white 70%);
+    padding: 100px 0;
+}
+
+.what-we-do-right{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.what-we-do-left{
+    width: 48%;
+    display: inline-block;
+}
+
+.what-we-do-left p{
+    background: white;
+    border-radius: 15px;
+    box-shadow: 5px 8px #df6161;
+    padding: 20px;
+    line-height: 25px;
+}
+
+.our-core-services h2{
+    color: white;
+}
+
+.card{
+    border: solid #ffc997 4px;
+    border-radius: 13px;
+    height: 400px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 20px;
+    width: 28%;
+    text-align: center;
+    padding: 24px;
+    background-color: white;
+}
+
+.card-hr{
+    border: solid #df6161 1px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.our-core-services{
+    background-image: linear-gradient(165deg, #df8880 50%, white 50%)
+}
+
+.advantages-card{
+    border: solid #ffc997 4px;
+    box-shadow: 5px 8px #df6161;
+    display: block;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 11px;
+    line-height: 25px;
+    width: 70%;
+    background-color: white;
+}
+
+.advantages-card-middle{
+    position: relative;
+    left: 150px;
+}
+
+.advantages{
+    min-height: 100vh;
+    position: relative;
+}
+
+.advantages-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.adv-hexagon{
+    position: sticky;
+    top: 40%;
+    left: 0;
+}
+
+.adv-circle{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.projects{
+    min-height: 100vh;
+}
+
+.card-container{
+    height: 600px;
+}
+
+.project-card{
+    width: 49%;
+    height: 50%;
+    border: solid 5px #df6161;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.project1{
+    background: url(img/portfolio/site1.png) center/cover no-repeat;
+}
+
+.project2{
+    background: url(img/portfolio/site2.png) center/cover no-repeat;
+}
+
+.project3{
+    background: url(img/portfolio/site3.png) center/cover no-repeat;
+}
+
+.project4{
+    background: url(img/portfolio/site4.png) center/cover no-repeat;
+}
+
+.contact{
+    background: linear-gradient(#df8880, #fdc796);
+    text-align: center;
+}
+
+@media (max-width: 375px){
+    .title{
+        font-size: 50px;
+        width: fit-content;
+    }
+    .advantages-card-middle{
+        left: 0;
+    }
+    .menu{
+        position: static;
+    }
+    .links{
+        float: none;
+    }
+    .what-we-do-left, .what-we-do-right{
+        display: block;
+        width: 100%;
+    }
+    .what-we-do, .our-core-services{
+        padding: 10px;
+    }
+    .what-we-do-right{
+        margin-top: 30px;
+    }
+    .card{
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .adv-hexagon{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,19 @@
+To create a website according to the template in the folder. Make it responsive. The file of template for the mobile version is called “homework-mobile”, and the one for the desktop version is called “homework”. Create a hover effect for the gradient that you hover over. The element should increase and a shadow should appear (the example is in the video: https://youtu.be/DoPNH9_jJKM). 
+
+The colors are presented below.
+
+The font name is Roboto, you can choose any size. Usually, the size would be between 40 and 100 pixels, depending on the size of your screen.
+
+The list of gradients. 
+
+1 - #F07F7F, #1E0662;
+2 - #E06161 , #FF8A1E;
+3 - #40AD5E, #00F7E8;
+4 - #6486FF, #FFC27B;
+5 - #F15597, #EAFFAF;
+7 - #A0DDFF, #D00C8E;
+8 - #FFB72B, #8DDC68;
+9 - #A0DDFF, #0136F2;
+10 - #3F21F3, #90FF86;
+11 - #3E1361, #9C79FF;
+
